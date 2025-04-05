@@ -26,7 +26,7 @@
 // 1. Source Code 작성 후 실행 명령
 
 // 2. Compiler에 의한 컴파일링(Compile) --- 이때 ---> Byte Code 형태( .class 확장자를 가진 파일)로 변환
-//												  참고) 기계어 형태로 변환 XXX
+//									 참고) 기계어 형태로 변환 XXX
 
 // 3. JVM(Java Virtual Machine, 인터프리터)에 Byte Code 전달
 // 4. 실행 (RUN)
@@ -83,10 +83,10 @@ public class Ch01Basic {						// 클래스 영역 - 객체 지향 코드 구현 
 		// 3. 사용자 정의 메서드 : 개발자가 정의한 (만든) 함수
 		
 //		System.out.println("HELLO"); 	// 출력 함수(메서드) 실행, CALL이라고 함
-										// ';' : 코드의 마침표 역할
-										// 모니터에 우리가 작성한 텍스트를 console창에 출력하는 역할(기능)
+						// ';' : 코드의 마침표 역할
+						// 모니터에 우리가 작성한 텍스트를 console창에 출력하는 역할(기능)
 		
-		// 	
+		// 1) ESCAPE 문자
 
 //      '정보 표시' 목적으로 사용된 기존 그래픽문자(영소문자, 숫자, 특수문자)와는 다르게
 //      '제어' 목적으로 사용되는 특수문자
@@ -130,9 +130,9 @@ public class Ch01Basic {						// 클래스 영역 - 객체 지향 코드 구현 
 		
 		
 //		## 표준 출력 함수 ##
-//      System.out 				: 표준 출력 스트림
+//      System.out 			: 표준 출력 스트림
 //      System.out.print()		: 줄바꿈 X
-//      System.out.println()	: 줄바꿈 O(포함, ln == \n)
+//      System.out.println()		: 줄바꿈 O(포함, ln == \n)
 //      System.out.printf()		: 서식문자를 사용할 수 있는 출력 메서드, printf의 의미(format : 형식, 서식)
 		
 		
@@ -183,21 +183,7 @@ public class Ch01Basic {						// 클래스 영역 - 객체 지향 코드 구현 
 		System.out.printf("성별 : %c\n", 'M');
 		System.out.printf("키 : %f\n", 192.2);
 		System.out.printf("주소 : %s\n", "\"대구광역시 중구 중앙대로 366 9층\"");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-	}		// 메서드 영역의 끝
+	}	// 메서드 영역의 끝
 	// 클래스 영역
 
 }
