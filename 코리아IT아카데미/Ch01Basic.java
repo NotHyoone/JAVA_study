@@ -69,13 +69,13 @@
 
 
 // 02 JAVA의 기본구조
-public class Ch01Basic {						// 클래스 영역 - 객체 지향 코드 구현 단위
+public class Ch01Basic {		// 클래스 영역 - 객체 지향 코드 구현 단위
 
 	
 	// public class Ch01Basic : 1. 하나의 public 클래스로 시작
 	// 						  : 2. 클래스는 파일 이름과 동일해야 함.
 	//						  : 3. 그 내부에 main 메서드가 포함되어야 함.
-	public static void main(String[] args) {	// 메서드 영역 - 절차 지향 구현 단위, main 메서드의 선언부	
+	public static void main(String[] args) {		// 메서드 영역 - 절차 지향 구현 단위, main 메서드의 선언부	
 		// ### 메서드의 정의와 종류 ###
 		// 0. 메서드(기능) 	: 특정 기능 수행, C언어 함수 개념과 유사
 		// 1. 메인 메서드 		: 최초 실행되는 함수
@@ -140,9 +140,12 @@ public class Ch01Basic {						// 클래스 영역 - 객체 지향 코드 구현 
 		// 서식문자란? : 서식공간에 자료를 대입하여 화면에 출력하거나 입력받기 위한 용도의 문자
 		
 		// %d : decimal의 약어			10진수(정수) 서식문자
-		// %f : floating poing number	10진수(실수) 서식문자
-		// %c : character의 약어			한문자 서식문자
-		// %s :	String의 약어				문자열 서식문자
+		// %f : floating poing number		10진수(실수) 서식문자
+		// %c : character의 약어		한문자 서식문자
+		// %s :	String의 약어			문자열 서식문자
+
+		// %o : Octal의 약자 			8진수(정수) 서식문자
+		// %x : Hexadecimal의 약자		16진수(정수) 서식문자
 		
 //		System.out.printf("%d 줄 출력", 1);
 //		System.out.printf("키 : %f", 170.12);
