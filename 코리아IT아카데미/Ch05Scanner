@@ -48,23 +48,23 @@ public class Ch05Scanner {
 //		System.out.println("----------- Scanner 예제 01 -------------");
 //		System.out.println("정수를 하나 입력해주세요 >>> ");
 //		int num = sc.nextInt();		// 실행 시 콘솔창의 오른쪽 왼쪽 보면 빨간불이 들어와있는데
-//									// ''실행 중'' 이라는 의미.
-//									// next() 	  : 한 문자열(단어), 띄워쓰기 기준으로 한 문자열만 가능
-//									// nextLine() : 한 줄
-//									// nextInt()  : 숫자로 나옴.
+//						// ''실행 중'' 이라는 의미.
+//						// next() 	  : 한 문자열(단어), 띄워쓰기 기준으로 한 문자열만 가능
+//						// nextLine() : 한 줄
+//						// nextInt()  : 숫자로 나옴.
 //		
 //		System.out.println("입력한 정수 : " + num);
 //		System.out.println();
 		
-		System.out.println("----------- Scanner 예제 02 -------------");
-		System.out.println("정수를 세개를 입력해주세요 >>> ");
-		int num1 = sc.nextInt(); // space나 Enter로 구분함
-		int num2 = sc.nextInt();
-		int num3 = sc.nextInt();
-		
-		int sum = num1 + num2 + num3;
-		System.out.printf("%d + %d + %d = %d\n", num1, num2, num3, sum);
-		System.out.println();
+//		System.out.println("----------- Scanner 예제 02 -------------");
+//		System.out.println("정수를 세개를 입력해주세요 >>> ");
+//		int num1 = sc.nextInt(); // space나 Enter로 구분함
+//		int num2 = sc.nextInt();
+//		int num3 = sc.nextInt();
+//		
+//		int sum = num1 + num2 + num3;
+//		System.out.printf("%d + %d + %d = %d\n", num1, num2, num3, sum);
+//		System.out.println();
 		
 		
 
@@ -84,21 +84,68 @@ public class Ch05Scanner {
 		// 직사각형의 둘레 = 10
 		// 직사각형의 넓이 = 6
 		
+//		Scanner sc = new Scanner(System.in); 
+//		
+//		System.out.println("가로 길이를 입력하세요 >>>");
+//		int width = sc.nextInt();
+//		System.out.println("세로 길이를 입력하세요 >>>");
+//		int height = sc.nextInt();
 		
+//		System.out.println(width);
+//		System.out.println(height);
 		
-//		System.out.println("가로 길이를 입력하세요 >>> ");
-//		int num = sc.nextInt();
-//		System.out.println("세로 길이를 입력하세요 >>> ");
-//		int num1 = sc.nextInt();
-		
-		
-//		int dul = (num + num1) * 2;
-//		int siz = num * num1;
-		
+		// 1. 변수에 값을 저장 후 출력
+//		int length = (width + height) * 2;
+//		int size = width * height;
+//		
 //		System.out.println("[SYSTEM] : 사용자님께서 만드신 직사각형의 정보를 출력하겠습니다.");
-//		System.out.println("직사각형의 둘레 = " + dul);
-//		System.out.println("직사각형의 넓이 = " + siz);
-		System.out.println();
+//		System.out.println("직사각형의 둘레 = " + length);
+//		System.out.println("직사각형의 넓이 = " + size);
+		
+		
+		// 2. 직접 변수가 아닌, 계산된 값
+//		System.out.println("[SYSTEM] : 사용자님께서 만드신 직사각형의 정보를 출력하겠습니다.");
+//		System.out.println("직사각형의 둘레 = " + (width + height) * 2);
+//		System.out.println("직사각형의 넓이 = " + width * height);
+		
+		
+		
+//		System.out.println("-------------- Scanner 버퍼 비우기 예제-----------------");
+//		
+////		Scanner sc= new Scanner(System.in);
+//		
+//		System.out.print("정수 입력 >>> ");
+//		int num = sc.nextInt();
+//		
+//		sc.nextLine();
+//		
+//		System.out.print("문자열 입력(띄워쓰기 포함 문자열) >>>");
+//		String word = sc.nextLine();			// 한 줄 입력
+//		
+//		System.out.println("입력된 문자열 : " + word);
+//		
+//		
+//		문제 02)
+//		System.out.println("--------------- Scanner 문제 02 ---------------");
+		// 이름을 입력하세요? 홍길동
+		// 홍길동 님의 나이를 입력하세요? 24
+		// 홍길동 님의 주소를 입력하세요? 대구광역시 반월 센트럴 타워
+		// 홍길동 님의 나이는 24세 주소는 대구광역시 반월 센트럴 타워 입니다
+		
+//		System.out.print("이름을 입력하세요 >>> ");
+//		String name = sc.next();
+//		
+//		System.out.println(name + "님의 나이를 입력하세요 >>>");
+//		int age = sc.nextInt();
+//		
+//		sc.nextLine();
+//		
+//		System.out.println(name + "님의 주소를 입력하세요 >>>");
+//		String address = sc.nextLine();
+//		
+//		System.out.printf("%s님의 나이는 %d세 주소는 %s입니다.\n", name, age, address);
+//		
+//		
 	}
 }
 
